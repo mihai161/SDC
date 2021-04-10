@@ -91,3 +91,8 @@ hist = model.fit(
     steps_per_epoch=steps_per_epoch,
     validation_data=valid_generator,
     validation_steps=val_steps_per_epoch).history
+
+#descarcat model de pe serverele Google
+import pickle
+filename = 'StemWebNN.sav'
+pickle.dump(model, open(filename, 'wb'))
