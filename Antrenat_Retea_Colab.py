@@ -57,7 +57,7 @@ IMAGE_SIZE = 224
 #Creare instanta de model
 model.build([None, 224, 224, 3])
 
-model.summary() Output:  """Model: "sequential"
+model.summary() """Output:  Model: "sequential"
                             _________________________________________________________________
                             Layer (type)                 Output Shape              Param #   
                             =================================================================
