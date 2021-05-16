@@ -47,8 +47,8 @@ void setup() {
   pinMode(in2, OUTPUT);
   pinMode(in3, OUTPUT);
   pinMode(in4, OUTPUT);
-  pinMode(txPin3, OUTPUT);
-  pinMode(txPin13, OUTPUT);
+  pinMode(txPin3, INPUT);
+  pinMode(txPin13, INPUT);
 
 }
 
